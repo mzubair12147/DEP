@@ -476,7 +476,7 @@ body {
 .time-limit {
   padding-left: 1.5rem;
   font-size: 1.4rem;
-  color: var(--color-accent);
+  color: var(--color-accent-dark-2);
   font-family: var(--font-league-spartan);
 }
 
