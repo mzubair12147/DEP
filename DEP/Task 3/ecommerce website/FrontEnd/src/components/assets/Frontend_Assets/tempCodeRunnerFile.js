@@ -1,0 +1,1 @@
+import allProducts from './all_product.js';

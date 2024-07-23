@@ -1,0 +1,35 @@
+.item {
+   transition: all 0.3s ease-in-out;
+   background-color: #eeeeee;
+}
+
+.item img {
+   width: 100%;
+}
+
+.item p {
+   margin: 0.6rem 0;
+   font-size: 1.6rem;
+}
+
+.item-prices {
+   display: flex;
+   gap: 2rem;
+}
+
+.item-price-new {
+   color: #374151;
+   font-size: 1.8rem;
+   font-weight: 600;
+}
+
+.item-price-old {
+   color: #8c8c8c;
+   font-size: 1.8rem;
+   font-weight: 500;
+   text-decoration: line-through;
+}
+
+.item:hover {
+   transform: scale(1.05);
+}
