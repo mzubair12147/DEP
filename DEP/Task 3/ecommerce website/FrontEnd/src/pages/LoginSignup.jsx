@@ -51,7 +51,7 @@ export default function LoginSignup() {
             localStorage.setItem('auth-token',responseData.token);
             window.location.replace('/');
         }else{
-            alert(responseData.message);
+            alert(responseData.me   ssage);
         }
     }
 

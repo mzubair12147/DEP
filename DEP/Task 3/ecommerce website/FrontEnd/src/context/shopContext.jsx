@@ -21,7 +21,7 @@ function ShopContextProvider({ children }) {
 
         if(localStorage.getItem('auth-token')){
             fetch('http://localhost:5000/get-cart',{
-                method:'POST',
+                method:'GET',
                 headers:{
                     Accept:'application/form-data',
                     'auth-token':`${localStorage.getItem('auth-token')}`,
